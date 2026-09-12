@@ -857,17 +857,22 @@ p.lead { font-size: var(--text-lg); color: var(--color-text); line-height: 1.55;
   .detail-hero__media { max-width: 780px; margin-inline: auto; width: 100%; }
 }
 .detail-hero__media {
+  align-self: start;
   border-radius: var(--radius-xl);
   overflow: hidden;
   background:
     radial-gradient(60% 60% at 30% 20%, rgba(201, 163, 64, 0.12) 0%, transparent 60%),
     linear-gradient(160deg, var(--color-primary-100) 0%, var(--color-surface-alt) 100%);
-  aspect-ratio: 4/3;
   box-shadow: var(--shadow-md);
-  padding: 8px;
+  padding: 6px;
 }
 .detail-hero__media svg,
-.detail-hero__media img { width: 100%; height: 100%; object-fit: contain; }
+.detail-hero__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-xl) - 6px);
+}
 /* Portrait modifier kept for backward compatibility; the contain rule above already
    handles portrait images correctly, so this variant just adjusts the backdrop. */
 .detail-hero__media--portrait {
