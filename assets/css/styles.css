@@ -377,6 +377,7 @@ p.lead { font-size: var(--text-lg); color: var(--color-text); line-height: 1.55;
 @media (max-width: 640px) {
   .social-links--header { display: none; }
 }
+.primary-nav__socials { display: none; }
 .nav-toggle {
   display: none;
   width: 44px; height: 44px;
@@ -435,11 +436,10 @@ p.lead { font-size: var(--text-lg); color: var(--color-text); line-height: 1.55;
     height: 44px;
   }
   .primary-nav__socials .social-link svg {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
   }
 }
-.primary-nav__socials { display: none; }
 
 /* ---------- Hero ---------- */
 .hero {
