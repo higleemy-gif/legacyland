@@ -3,6 +3,7 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+  <!-- Home -->
   <url>
     <loc>https://legacylanddevelopers.in/</loc>
     <lastmod>2026-09-12</lastmod>
@@ -15,6 +16,7 @@
     </image:image>
   </url>
 
+  <!-- Core section pages -->
   <url>
     <loc>https://legacylanddevelopers.in/properties.html</loc>
     <lastmod>2026-09-12</lastmod>
@@ -25,14 +27,12 @@
       <image:title>Available plots in Rayagada, Odisha</image:title>
     </image:image>
   </url>
-
   <url>
     <loc>https://legacylanddevelopers.in/about.html</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://legacylanddevelopers.in/contact.html</loc>
     <lastmod>2026-09-12</lastmod>
@@ -40,6 +40,61 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Location landing pages -->
+  <url>
+    <loc>https://legacylanddevelopers.in/plots-in-kolnora-rayagada.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/kashyapi-township.png</image:loc>
+      <image:title>Residential plots in Kolnora, Rayagada — near MIT's College</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://legacylanddevelopers.in/plots-in-malligon-rayagada.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/srin-vedha-ventures.png</image:loc>
+      <image:title>All-facing residential plots at Malligon Village, Rayagada</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://legacylanddevelopers.in/plots-in-sanopodia-rayagada.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/sri-kamal-vedha-township.jpeg</image:loc>
+      <image:title>Gated township plots at Sanopodia, Kolnara, Rayagada</image:title>
+    </image:image>
+  </url>
+
+  <!-- Guides / informational -->
+  <url>
+    <loc>https://legacylanddevelopers.in/plot-buying-guide-rayagada.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/image/projectimage.png</image:loc>
+      <image:title>Plot buying guide for Rayagada, Odisha</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://legacylanddevelopers.in/why-invest-rayagada-real-estate.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/image/projectimage.png</image:loc>
+      <image:title>Why invest in Rayagada real estate</image:title>
+    </image:image>
+  </url>
+
+  <!-- Project detail pages -->
   <url>
     <loc>https://legacylanddevelopers.in/properties/kashyapi-township.html</loc>
     <lastmod>2026-09-12</lastmod>
@@ -51,7 +106,6 @@
       <image:caption>Residential plots at MIT's College Front, Kolnora Tahasil, Rayagada.</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://legacylanddevelopers.in/properties/srin-vedha-ventures.html</loc>
     <lastmod>2026-09-12</lastmod>
@@ -63,7 +117,6 @@
       <image:caption>All-facing residential plots at Malligon Village, Rayagada. 18 × 50 ft (900 Sq. Ft.).</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://legacylanddevelopers.in/properties/omkareswar-venture.html</loc>
     <lastmod>2026-09-12</lastmod>
@@ -75,7 +128,6 @@
       <image:caption>15 × 60 ft all-facing residential plots near Kotapeta, Malligon, Rayagada.</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://legacylanddevelopers.in/properties/sri-kamal-vedha-township.html</loc>
     <lastmod>2026-09-12</lastmod>
