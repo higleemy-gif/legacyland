@@ -21,3 +21,6 @@ dist/
 build/
 tmp/
 temp/
+
+# Media served from CDN, not from the repo
+video/
