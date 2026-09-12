@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Srin Vedha Ventures — visual placeholder">
+  <defs>
+    <linearGradient id="sky-s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6eed3"/>
+      <stop offset="55%" stop-color="#e4c063"/>
+      <stop offset="100%" stop-color="#a48330"/>
+    </linearGradient>
+    <linearGradient id="ground-s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3b60"/>
+      <stop offset="100%" stop-color="#101f3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky-s)"/>
+  <circle cx="500" cy="220" r="110" fill="#f6eed3" opacity="0.55"/>
+  <circle cx="500" cy="220" r="70" fill="#f6eed3" opacity="0.9"/>
+  <g fill="#101f3d" opacity="0.8">
+    <path d="M120 400 c-2 -60 4 -110 -6 -140 c14 12 32 20 46 24 c-14 -18 -24 -40 -28 -60 c22 20 38 30 52 32 c-12 -20 -18 -46 -14 -70 c14 26 26 40 42 46 c-6 -22 -6 -50 4 -70 c8 30 22 52 36 62 c-4 -16 0 -34 8 -46 c6 30 14 52 26 60 l-2 162 z"/>
+    <path d="M680 420 c0 -70 12 -120 4 -150 c14 14 32 22 46 24 c-12 -18 -22 -40 -26 -58 c20 20 36 28 50 30 c-10 -22 -14 -46 -8 -68 c12 24 24 38 40 42 c-4 -22 -2 -46 8 -66 c6 28 20 50 34 58 l-2 188 z"/>
+  </g>
+  <path d="M0 380 L800 380 L800 420 L0 420 Z" fill="#5c6b8f" opacity="0.35"/>
+  <path d="M0 420 L800 420 L800 600 L0 600 Z" fill="url(#ground-s)"/>
+  <g stroke="#c9a340" stroke-width="1.4" opacity="0.75" fill="none">
+    <rect x="60" y="445" width="130" height="130" rx="4"/>
+    <rect x="205" y="445" width="130" height="130" rx="4"/>
+    <rect x="350" y="445" width="130" height="130" rx="4"/>
+    <rect x="495" y="445" width="130" height="130" rx="4"/>
+    <rect x="640" y="445" width="130" height="130" rx="4"/>
+  </g>
+  <g fill="#c9a340" opacity="0.7">
+    <circle cx="125" cy="510" r="4"/>
+    <circle cx="270" cy="510" r="4"/>
+    <circle cx="415" cy="510" r="4"/>
+    <circle cx="560" cy="510" r="4"/>
+    <circle cx="705" cy="510" r="4"/>
+  </g>
+  <g font-family="Sora, Inter, sans-serif" fill="#f6eed3">
+    <text x="40" y="560" font-size="30" font-weight="700" letter-spacing="-1">Srin Vedha Ventures</text>
+    <text x="40" y="585" font-size="14" opacity="0.9" letter-spacing="1">MALLIGON · RAYAGADA</text>
+  </g>
+  <g font-family="Inter, sans-serif">
+    <rect x="600" y="30" width="170" height="28" rx="14" fill="#101f3d" opacity="0.9"/>
+    <text x="620" y="49" font-size="11" font-weight="600" letter-spacing="1" fill="#f6eed3">SAMPLE VISUAL</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Sri Kamal Vedha Township — visual placeholder">
+  <defs>
+    <linearGradient id="sky-sk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101f3d"/>
+      <stop offset="45%" stop-color="#c9a340"/>
+      <stop offset="100%" stop-color="#f6eed3"/>
+    </linearGradient>
+    <linearGradient id="ground-sk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2740"/>
+      <stop offset="100%" stop-color="#08132a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky-sk)"/>
+  <circle cx="400" cy="330" r="90" fill="#f6eed3" opacity="0.65"/>
+  <circle cx="400" cy="330" r="55" fill="#f6eed3" opacity="0.9"/>
+  <g fill="#08132a">
+    <path d="M50 420 L120 420 L120 360 L150 340 L180 360 L180 420 L230 420 L230 380 L260 360 L290 380 L290 420 L350 420 L350 400 L400 400 L400 420 L500 420 L500 370 L540 340 L580 370 L580 420 L640 420 L640 380 L680 360 L720 380 L720 420 L800 420 L800 600 L0 600 L0 420 Z"/>
+  </g>
+  <g fill="#c9a340">
+    <rect x="360" y="380" width="12" height="42"/>
+    <rect x="428" y="380" width="12" height="42"/>
+    <path d="M355 380 Q400 350 445 380 L445 388 Q400 358 355 388 Z"/>
+  </g>
+  <path d="M0 420 L800 420 L800 600 L0 600 Z" fill="url(#ground-sk)" opacity="0.5"/>
+  <path d="M370 420 L430 420 L520 600 L280 600 Z" fill="#c9a340" opacity="0.18"/>
+  <path d="M395 420 L405 420 L420 600 L380 600 Z" fill="#c9a340" opacity="0.35"/>
+  <g fill="#f6eed3" opacity="0.85">
+    <circle cx="90"  cy="405" r="2.5"/>
+    <circle cx="140" cy="405" r="2.5"/>
+    <circle cx="200" cy="405" r="2.5"/>
+    <circle cx="260" cy="405" r="2.5"/>
+    <circle cx="540" cy="405" r="2.5"/>
+    <circle cx="620" cy="405" r="2.5"/>
+    <circle cx="700" cy="405" r="2.5"/>
+    <circle cx="760" cy="405" r="2.5"/>
+  </g>
+  <g font-family="Sora, Inter, sans-serif" fill="#f6eed3">
+    <text x="40" y="560" font-size="28" font-weight="700" letter-spacing="-1">Sri Kamal Vedha Township</text>
+    <text x="40" y="585" font-size="14" opacity="0.85" letter-spacing="1">SANOPODIA · KOLNARA · RAYAGADA</text>
+  </g>
+  <g font-family="Inter, sans-serif">
+    <rect x="580" y="30" width="190" height="28" rx="14" fill="#f6eed3" opacity="0.9"/>
+    <text x="602" y="49" font-size="11" font-weight="600" letter-spacing="1" fill="#101f3d">GATED · SAMPLE VISUAL</text>
+  </g>
+</svg>

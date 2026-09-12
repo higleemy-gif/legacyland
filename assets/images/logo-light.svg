@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Legacy Land Developers">
+  <!-- Light-tinted stacked chevron layers for dark backgrounds -->
+  <g fill="#f6eed3">
+    <path d="M50 10 L60 24 L40 24 Z"/>
+    <path d="M50 28 L66 44 L34 44 Z"/>
+    <path d="M50 48 L72 64 L28 64 Z"/>
+    <path d="M50 68 L80 84 L20 84 Z"/>
+  </g>
+  <g fill="#c9a340">
+    <rect x="30" y="50" width="10" height="2" rx="0.6"/>
+    <rect x="26" y="56" width="12" height="2" rx="0.6"/>
+    <rect x="22" y="62" width="14" height="2" rx="0.6"/>
+  </g>
+  <path d="M8 92 Q50 84 92 92" stroke="#c9a340" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+</svg>

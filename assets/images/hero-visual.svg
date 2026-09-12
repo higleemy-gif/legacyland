@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Land, township and future — Legacy Land Developers">
+  <defs>
+    <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6eed3"/>
+      <stop offset="55%" stop-color="#e4c063"/>
+      <stop offset="100%" stop-color="#c9a340"/>
+    </linearGradient>
+    <linearGradient id="hgnd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3b60"/>
+      <stop offset="100%" stop-color="#08132a"/>
+    </linearGradient>
+    <linearGradient id="hmid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4a70"/>
+      <stop offset="100%" stop-color="#101f3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#hsky)"/>
+  <!-- Sun -->
+  <circle cx="560" cy="220" r="90" fill="#f6eed3" opacity="0.9"/>
+  <circle cx="560" cy="220" r="130" fill="#f6eed3" opacity="0.25"/>
+  <!-- Distant mountains -->
+  <path d="M0 360 L100 280 L220 340 L340 260 L460 320 L580 260 L700 320 L800 280 L800 420 L0 420 Z" fill="#5c6b8f" opacity="0.55"/>
+  <path d="M0 400 L120 340 L240 380 L380 320 L520 380 L640 340 L760 380 L800 350 L800 470 L0 470 Z" fill="url(#hmid)" opacity="0.9"/>
+  <!-- Tree line silhouettes -->
+  <g fill="#101f3d" opacity="0.7">
+    <circle cx="60" cy="400" r="22"/>
+    <circle cx="90" cy="395" r="16"/>
+    <circle cx="720" cy="405" r="20"/>
+    <circle cx="750" cy="398" r="14"/>
+  </g>
+  <!-- Ground -->
+  <path d="M0 460 L800 460 L800 640 L0 640 Z" fill="url(#hgnd)"/>
+  <!-- Perspective plot grid -->
+  <g stroke="#c9a340" stroke-width="1.4" opacity="0.5">
+    <line x1="60"  y1="460" x2="-100" y2="640"/>
+    <line x1="200" y1="460" x2="140"  y2="640"/>
+    <line x1="340" y1="460" x2="360"  y2="640"/>
+    <line x1="480" y1="460" x2="580"  y2="640"/>
+    <line x1="620" y1="460" x2="800"  y2="640"/>
+    <line x1="760" y1="460" x2="1020" y2="640"/>
+    <line x1="0"   y1="510" x2="800"  y2="510"/>
+    <line x1="0"   y1="560" x2="800"  y2="560"/>
+    <line x1="0"   y1="610" x2="800"  y2="610"/>
+  </g>
+  <!-- Tiny houses on horizon -->
+  <g fill="#f6eed3" opacity="0.9">
+    <rect x="260" y="430" width="22" height="20"/><polygon points="260,430 271,418 282,430"/>
+    <rect x="360" y="426" width="26" height="22"/><polygon points="360,426 373,412 386,426"/>
+    <rect x="440" y="432" width="20" height="18"/><polygon points="440,432 450,420 460,432"/>
+    <rect x="520" y="426" width="26" height="22"/><polygon points="520,426 533,412 546,426"/>
+  </g>
+  <!-- Surveyor pin -->
+  <g>
+    <circle cx="140" cy="540" r="10" fill="#c9a340"/>
+    <path d="M140 540 L140 620" stroke="#c9a340" stroke-width="2"/>
+  </g>
+</svg>

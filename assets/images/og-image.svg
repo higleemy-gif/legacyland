@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101f3d"/>
+      <stop offset="100%" stop-color="#08132a"/>
+    </linearGradient>
+    <linearGradient id="og-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e4c063"/>
+      <stop offset="100%" stop-color="#c9a340"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <!-- Radial glow -->
+  <circle cx="1030" cy="150" r="200" fill="url(#og-gold)" opacity="0.28"/>
+  <!-- Faint ground plane -->
+  <path d="M0 470 L1200 470 L1200 630 L0 630 Z" fill="#0b1730"/>
+  <g stroke="#c9a340" stroke-width="1.2" opacity="0.25">
+    <line x1="100"  y1="470" x2="-80"   y2="630"/>
+    <line x1="300"  y1="470" x2="240"   y2="630"/>
+    <line x1="500"  y1="470" x2="500"   y2="630"/>
+    <line x1="700"  y1="470" x2="760"   y2="630"/>
+    <line x1="900"  y1="470" x2="1020"  y2="630"/>
+    <line x1="1100" y1="470" x2="1280"  y2="630"/>
+    <line x1="0" y1="530" x2="1200" y2="530"/>
+    <line x1="0" y1="580" x2="1200" y2="580"/>
+  </g>
+  <!-- LLD building mark -->
+  <g transform="translate(80,150) scale(1.4)">
+    <g fill="#f6eed3">
+      <path d="M50 14 L68 32 L68 39 L32 39 L32 32 Z"/>
+      <path d="M50 26 L74 44 L74 51 L26 51 L26 44 Z"/>
+      <path d="M50 38 L80 56 L80 63 L20 63 L20 56 Z"/>
+      <path d="M50 50 L86 68 L86 75 L14 75 L14 68 Z"/>
+    </g>
+    <g fill="#c9a340">
+      <rect x="28" y="45" width="14" height="2.4" rx="1"/>
+      <rect x="24" y="52" width="16" height="2.4" rx="1"/>
+      <rect x="20" y="59" width="18" height="2.4" rx="1"/>
+    </g>
+    <path d="M10 84 Q50 74 90 84" stroke="#c9a340" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g font-family="Sora, Inter, sans-serif" fill="#f6eed3">
+    <text x="230" y="200" font-size="30" font-weight="500" letter-spacing="6" opacity="0.7">LEGACY LAND DEVELOPERS</text>
+    <text x="230" y="300" font-size="66" font-weight="700" letter-spacing="-2">A piece of land is</text>
+    <text x="230" y="378" font-size="66" font-weight="700" letter-spacing="-2">never just a piece of land.</text>
+  </g>
+  <g font-family="Inter, sans-serif" fill="#0b1730">
+    <rect x="230" y="420" width="230" height="42" rx="21" fill="#c9a340"/>
+    <text x="253" y="447" font-size="16" font-weight="700" letter-spacing="1.5">RAYAGADA · ODISHA</text>
+  </g>
+</svg>
