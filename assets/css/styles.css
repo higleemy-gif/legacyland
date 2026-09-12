@@ -434,10 +434,15 @@ p.lead { font-size: var(--text-lg); color: var(--color-text); line-height: 1.55;
   .primary-nav__socials .social-link {
     width: 44px;
     height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
   .primary-nav__socials .social-link svg {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
+    display: block;
   }
 }
 
