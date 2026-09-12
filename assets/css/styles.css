@@ -1116,7 +1116,8 @@ form.enquiry-form {
   display: grid;
   gap: 12px;
   max-width: 880px;
-  margin: 28px auto 0;
+  margin-top: 28px;
+  margin-inline: 0;
 }
 .faq__item {
   background: var(--color-surface);
