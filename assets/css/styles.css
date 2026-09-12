@@ -430,11 +430,14 @@ p.lead { font-size: var(--text-lg); color: var(--color-text); line-height: 1.55;
     margin-right: auto;
     font-weight: 600;
   }
-  .primary-nav__socials .social-link { width: 44px; height: 44px; }
+  .primary-nav__socials .social-link {
+    width: 44px !important;
+    height: 44px !important;
+  }
   .primary-nav__socials .social-link svg {
-    width: 30px;
-    height: 30px;
-    stroke-width: 2.2;
+    width: 32px !important;
+    height: 32px !important;
+    stroke-width: 2.4;
   }
 }
 .primary-nav__socials { display: none; }
