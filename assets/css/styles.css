@@ -430,6 +430,8 @@ p.lead { font-size: var(--text-lg); color: var(--color-text); line-height: 1.55;
     margin-right: auto;
     font-weight: 600;
   }
+  .primary-nav__socials .social-link { width: 44px; height: 44px; }
+  .primary-nav__socials .social-link svg { width: 24px; height: 24px; }
 }
 .primary-nav__socials { display: none; }
 
