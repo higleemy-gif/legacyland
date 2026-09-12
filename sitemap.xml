@@ -1,43 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
   <url>
     <loc>https://legacylanddevelopers.in/</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/image/projectimage.png</image:loc>
+      <image:title>Residential plots and township projects in Rayagada, Odisha</image:title>
+      <image:caption>Aerial view of a residential plotting project by Legacy Land Developers in Rayagada, Odisha.</image:caption>
+    </image:image>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/properties.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/image/projectimage.png</image:loc>
+      <image:title>Available plots in Rayagada, Odisha</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/about.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/contact.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/properties/kashyapi-township.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/kashyapi-township.png</image:loc>
+      <image:title>Kashyapi Township — plots at Kolnora, Rayagada</image:title>
+      <image:caption>Residential plots at MIT's College Front, Kolnora Tahasil, Rayagada.</image:caption>
+    </image:image>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/properties/srin-vedha-ventures.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/srin-vedha-ventures.png</image:loc>
+      <image:title>Srin Vedha Ventures — all-facing plots at Malligon, Rayagada</image:title>
+      <image:caption>All-facing residential plots at Malligon Village, Rayagada. 18 × 50 ft (900 Sq. Ft.).</image:caption>
+    </image:image>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/properties/omkareswar-venture.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/omkareswar-venture.png</image:loc>
+      <image:title>Omkareswar Venture — 15 × 60 ft plots near Kotapeta, Rayagada</image:title>
+      <image:caption>15 × 60 ft all-facing residential plots near Kotapeta, Malligon, Rayagada.</image:caption>
+    </image:image>
   </url>
+
   <url>
     <loc>https://legacylanddevelopers.in/properties/sri-kamal-vedha-township.html</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://legacylanddevelopers.in/assets/images/photos/sri-kamal-vedha-township.jpeg</image:loc>
+      <image:title>Sri Kamal Vedha Township — gated plots at Sanopodia, Rayagada</image:title>
+      <image:caption>Premium gated residential plots at Sanopodia, Kolnara, Rayagada. From 18 × 50 ft onwards.</image:caption>
+    </image:image>
   </url>
+
 </urlset>

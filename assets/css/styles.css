@@ -1109,3 +1109,66 @@ form.enquiry-form {
 }
 .divider { height: 1px; background: var(--color-border); margin: clamp(40px, 6vw, 64px) 0; }
 .stack > * + * { margin-top: var(--stack, 12px); }
+
+
+/* ---------- FAQ ---------- */
+.faq {
+  display: grid;
+  gap: 12px;
+  max-width: 880px;
+  margin: 28px auto 0;
+}
+.faq__item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 0;
+  transition: border-color var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+.faq__item[open] {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-sm);
+}
+.faq__item > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 22px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: var(--text-md);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  user-select: none;
+}
+.faq__item > summary::-webkit-details-marker { display: none; }
+.faq__item > summary::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  transition: transform var(--dur) var(--ease-out), background var(--dur) var(--ease-out);
+  background-image:
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor);
+  background-size: 12px 2px, 2px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--color-accent-700);
+}
+.faq__item[open] > summary::after {
+  background-size: 12px 2px, 0 0;
+  transform: rotate(180deg);
+}
+.faq__body {
+  padding: 0 22px 20px;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+.faq__body p { margin: 0; }
+.faq__body a { color: var(--color-accent-700); text-decoration: underline; }

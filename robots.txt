@@ -1,4 +1,29 @@
+# robots.txt for legacylanddevelopers.in
+# Legacy Land Developers — residential plots and township projects in Rayagada, Odisha.
+
 User-agent: *
 Allow: /
 
+# Common well-behaved search bots (explicit allow)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Nothing to disallow — this is a fully public marketing site.
+
 Sitemap: https://legacylanddevelopers.in/sitemap.xml
+Host: https://legacylanddevelopers.in
